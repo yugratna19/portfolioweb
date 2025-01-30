@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yugratna Humagain - AI & ML Enthusiast</title>
+
+    <!-- Favicons -->
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon.svg">
+    <meta name="msapplication-TileColor" content="#0F172A">
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Yugratna Humagain - Portfolio">
+    <meta name="twitter:description" content="AI & ML Enthusiast | Computer Engineering Student">
+    <meta name="twitter:image" content="favicon.svg">
+
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+
+    <canvas id="starfield"></canvas>
+
+    <header>
+        <nav id="navbar">
+            <a href="#home" class="logo">YH</a>
+            <button class="hamburger" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <h1>Hi, I'm <span class="highlight">Yugratna Humagain</span></h1>
+                <p id="typewriter"></p>
+                <a href="#about" class="btn explore-btn">
+                    <span>Let's Explore</span>
+                    <i class="fas fa-chevron-down"></i>
+                </a>
+            </div>
+        </section>
+
+        <section id="about">
+            <div class="container">
+                <h2>About Me</h2>
+                <div class="about-content">
+                    <img src="assets/yugratna.jpeg" alt="Yugratna Humagain" class="profile-photo">
+                    <div class="bio">
+                        <p>Hello! I'm Yugratna, a passionate Computer Engineering student with a keen interest in
+                            Artificial Intelligence and Machine Learning. I'm dedicated to exploring innovative
+                            solutions at the intersection of AI and real-world problems.</p>
+                        <div class="bio-details">
+                            <p><i class="fas fa-graduation-cap"></i> Computer Engineering Student</p>
+                            <p><i class="fas fa-brain"></i> AI/ML Enthusiast</p>
+                        </div>
+                        <br>
+                        <a href="assets/yugratna-cv.pdf" class="btn" download>
+                            <i class="fas fa-download"></i> Download CV
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills">
+            <div class="container">
+                <h2>Skills & Expertise</h2>
+                <div class="skills-grid">
+                    <div class="skill">
+                        <i class="fas fa-brain"></i>
+                        <h3>AI & ML</h3>
+                        <p>Deep Learning, Neural Networks, NLP, Computer Vision, TensorFlow, PyTorch</p>
+                    </div>
+                    <div class="skill">
+                        <i class="fas fa-code"></i>
+                        <h3>Programming</h3>
+                        <p>Python, JavaScript, C++, C, SQL</p>
+                    </div>
+                    <div class="skill">
+                        <i class="fas fa-laptop-code"></i>
+                        <h3>Web Development</h3>
+                        <p>HTML/CSS, REST APIs, Django</p>
+                    </div>
+                    <div class="skill grid-spacer"></div>
+                    <div class="skill">
+                        <i class="fas fa-project-diagram"></i>
+                        <h3>Data Science</h3>
+                        <p>Data Analysis, Visualization, Statistical Modeling, Big Data</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="experience">
+            <div class="container">
+                <h2>Experience</h2>
+                <div class="experience-grid">
+                    <div class="experience-card">
+                        <div class="experience-header">
+                            <div class="experience-title">
+                                <h3>AI Fellowship Program</h3>
+                                <p class="company">Fusemachines</p>
+                            </div>
+                            <div class="experience-duration">
+                                <i class="fas fa-calendar-alt"></i>
+                                <span>Apr 2024 – Oct 2024</span>
+                            </div>
+                        </div>
+                        <div class="experience-content">
+                            <div class="skills-used">
+                                <span>Python</span>
+                                <span>TensorFlow</span>
+                                <span>PyTorch</span>
+                                <span>Computer Vision</span>
+                                <span>NLP</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects">
+            <div class="container">
+                <h2>Featured Projects</h2>
+                <div class="project-grid">
+                    <a href="https://github.com/yugratna19/Presentify_webapp" target="_blank" class="project-card">
+                        <div class="project-header">
+                            <i class="fas fa-desktop"></i>
+                            <h3>Presentify</h3>
+                        </div>
+                        <p>A web app for seamless research presentation creation with real-time slide previews and
+                            efficient PPTX export.</p>
+                        <div class="tech-stack">
+                            <span>NLP</span>
+                            <span>Transformers Models</span>
+                            <span>Automated Data Processing</span>
+                            <span>PPTX Generation</span>
+                        </div>
+                    </a>
+                    <a href="https://github.com/yugratna19/Emergency-response" target="_blank" class="project-card">
+                        <div class="project-header">
+                            <i class="fas fa-video"></i>
+                            <h3>Emergency Response</h3>
+                        </div>
+                        <p>AI-powered real-time classification of violent activities using ResNet18 and YOLOv8 for
+                            enhanced CCTV security monitoring.</p>
+                        <div class="tech-stack">
+                            <span>RestNet</span>
+                            <span>LSTM</span>
+                            <span>YOLOv8</span>
+                            <span>Computer Vision</span>
+                        </div>
+                    </a>
+                    <a href="https://github.com/yugratna19" target="_blank" class="project-card">
+                        <div class="project-header">
+                            <i class="fas fa-shapes"></i>
+                            <h3>Math Vision</h3>
+                        </div>
+                        <p>Enhancing the accuracy and performance of multimodal large language models (LLMs) for solving
+                            geometric problems.</p>
+                        <div class="tech-stack">
+                            <span>LLMs</span>
+                            <span>PEFT</span>
+                            <span>Model Quantization</span>
+                            <span>Resource Optimization</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="view-all">
+                    <a href="https://github.com/yugratna19" target="_blank" class="btn">
+                        <i class="fab fa-github"></i> View All Projects
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <div class="container">
+                <h2>Get in Touch</h2>
+                <div class="message-container"></div>
+                <form id="contact-form" class="contact-form" action="https://formspree.io/f/xwpvbknb" method="POST">
+                    <div class="form-group">
+                        <label for="name"><i class="fas fa-user"></i> Name</label>
+                        <input type="text" id="name" name="name" required placeholder="Your name">
+                    </div>
+                    <div class="form-group">
+                        <label for="email"><i class="fas fa-envelope"></i> Email</label>
+                        <input type="email" id="email" name="email" required placeholder="your.email@example.com">
+                    </div>
+                    <div class="form-group">
+                        <label for="subject"><i class="fas fa-tag"></i> Subject</label>
+                        <input type="text" id="subject" name="subject" required placeholder="Message subject">
+                    </div>
+                    <div class="form-group">
+                        <label for="message"><i class="fas fa-comment"></i> Message</label>
+                        <textarea id="message" name="message" required placeholder="Your message here..."></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-secondary">
+                        <i class="fas fa-paper-plane"></i> Send Message
+                    </button>
+                </form>
+                <div class="social-links">
+                    <a href="/cdn-cgi/l/email-protection#d0a9a5b7a2b1a4beb1e5e990b7bdb1b9bcfeb3bfbd" class="social-icon"
+                        title="Email">
+                        <img src="assets/icons/email.svg" alt="Email">
+                    </a>
+                    <a href="https://github.com/yugratna19" target="_blank" class="social-icon" title="GitHub">
+                        <img src="assets/icons/github.svg" alt="GitHub">
+                    </a>
+                    <a href="https://www.linkedin.com/in/yugratnahumagain/" target="_blank" class="social-icon"
+                        title="LinkedIn">
+                        <img src="assets/icons/linkedin.svg" alt="LinkedIn">
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Yugratna Humagain. All rights reserved.</p>
+    </footer>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
